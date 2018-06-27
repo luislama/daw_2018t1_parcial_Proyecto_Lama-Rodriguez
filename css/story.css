@@ -6,8 +6,7 @@
   position: relative;
   display: inline-block;
   margin: 10px 8px;
-  min-width: 230px;
-  max-width: 315px;
+  
   width: 100%;
   color: #141414;
   text-align: left;
@@ -23,8 +22,8 @@
 
 .snip1568 .profile-image img {
   border-radius: 5px;
-  max-width: 100%;
-  height: 80px;
+  width: 100%;
+  height: 80%;
   vertical-align: top;
   float: left;
 }
@@ -83,7 +82,7 @@
 .snip1568 i {
   padding: 10px 2px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: normal;
   color: #ffffff;
   opacity: 0.75;
@@ -94,5 +93,32 @@
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-
 /* Demo purposes only */
+
+@media (min-width: 576px) {
+  .profile-image {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  }
+  
+  // Medium devicestablets
+  @media (min-width: 768px) {
+    .profile-image {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+  }
+  
+  // Large devices desktops
+  @media (min-width: 992px) {
+    .profile-image {
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+  }
+  
+  // Extra large devices large desktops
+  @media (min-width: 1200px) {
+  
+  }
