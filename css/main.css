@@ -1,0 +1,64 @@
+/* header css */
+header{
+    text-align: center;
+}
+
+/* nav css */
+.navbar{
+    height: 55px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-form{
+    position: absolute;
+    right: 1%;
+}
+
+/* footer css */
+.footer-menu{
+    float: none;
+    text-align: center;
+    padding: 0px;
+}
+.footer-menu li{
+    padding-top: 15px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+
+
+.footer-menu>li{
+    display: inline-block;
+    margin: 0px 50px 0px 50px; 
+}
+
+/* nav css - responsive */
+@media only screen and (max-width: 992px) {
+    .navbar{
+        height: auto;
+    }
+    .navbar-nav.navbar-center {
+        position: inherit;
+        left: 0%;
+        transform: none;
+    }
+    .navbar li{
+        text-align: center;
+    }
+    .nav-form{
+        position: inherit;
+    }
+    .footer-menu li{
+        padding-top: 15px;
+        width: 100%;
+        margin: 0px;
+    }
+}

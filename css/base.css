@@ -1,0 +1,75 @@
+.contenedor{
+	margin:2% 5% 2%;
+}
+.clickbox {
+    cursor: pointer;
+}
+.ocultar {
+	display: none;
+}
+
+.mostrar {
+	display: block;
+}
+
+.parrafoSection {
+	text-align: justify;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+img {
+	width: 100%;
+}
+
+@media (max-width: 767.98px) { 
+  
+  aside {
+    display: none;
+  }
+
+}
+
+@include media-breakpoint-up(xs) {
+
+}
+
+@include media-breakpoint-up(sm) {
+
+}
+
+@include media-breakpoint-up(md) {
+
+}3
+
+@include media-breakpoint-up(lg) {
+
+}
+
+@include media-breakpoint-up(xl) {
+
+}
+
+//Extra small devices (portrait phones, less than 576px) No media query since this is the default in Bootstrap
+
+//Small devices landscape phones
+@media (min-width: 576px) {
+
+}
+
+// Medium devicestablets
+@media (min-width: 768px) {
+
+}
+
+// Large devices desktops
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices large desktops
+@media (min-width: 1200px) {
+
+}

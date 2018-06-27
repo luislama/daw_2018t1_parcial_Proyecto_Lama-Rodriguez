@@ -1,0 +1,43 @@
+.barra{
+  width: 100%;
+}
+
+.style-input{
+  display: block;
+  width: 85%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.tb{
+  margin-top: 5%;
+}
+
+.posts_Blog{
+  margin-bottom: 6%;
+}
+
+@media (max-width: 767.98px) { 
+
+  #post_Show_Blog { display: block; }
+
+  div.post_Blog p {
+    text-overflow: ellipsis;
+  }
+  .post_Blog {
+    height: 20%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) {
+  #post_Show_Blog { display: none; }
+}
+
