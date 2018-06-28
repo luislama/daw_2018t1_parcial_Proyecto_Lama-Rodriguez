@@ -14,8 +14,9 @@ function mostrarHistorial(){
 	elemento.classList.remove("ocultar");
 	elemento.classList.add("mostrar");
 	let elemento2 = document.getElementById('historialToggle');
-	elemento2.classList.remove("ocultar");
-	elemento2.classList.add("mostrar");
+	  elemento2.classList.remove("ocultar");
+	  elemento2.classList.add("mostrar");
+  
 };
 function mostrarDireccion(){
 	ocultar();

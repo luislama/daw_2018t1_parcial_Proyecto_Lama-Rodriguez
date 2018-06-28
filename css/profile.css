@@ -16,6 +16,12 @@ section li {
 	height: 350px;
 	/*display: block-inline;*/
 }
+
+#localizacion {
+	width: 100%;
+	padding-left: auto;
+	padding-right: auto;
+}
 .btn-grey{
     background-color:#D8D8D8;
 	color:#FFF;
@@ -80,14 +86,18 @@ section li {
 	}
 	.button_Profile{
 		align-self: center;
-		width: 80%;
-		margin-right: 5%;
-		margin-left: 5%;
+		width: 100%;
 	}
-		#perfil_buttons_content_Section {
+	#perfil_buttons_content_Section {
 		width: 100%;
 		padding-left: 35%;
 		padding-right: 35%
+	}
+
+	#obtener {
+	width: 55%;
+	margin-right: auto;
+	margin-left: auto;
 	}
 }
 
@@ -116,4 +126,9 @@ section li {
 		margin-left: 35%;
 	}
 
+	#obtener {
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }

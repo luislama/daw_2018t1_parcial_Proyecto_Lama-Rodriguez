@@ -1,6 +1,10 @@
 .contenedor{
 	margin:2% 5% 2%;
 }
+div{
+	margin-left: auto;
+	margin-right: auto;
+}
 .clickbox {
     cursor: pointer;
 }
@@ -12,6 +16,12 @@
 	display: block;
 }
 
+h2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+}
 .parrafoSection {
 	text-align: justify;
 }
