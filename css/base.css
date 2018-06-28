@@ -1,5 +1,5 @@
 .contenedor{
-	margin:2% 5% 2%;
+	margin:2% 7% 2%;
 }
 div{
 	margin-left: auto;
@@ -12,6 +12,9 @@ div{
 	display: none;
 }
 
+#btnCARRITO{
+	margin-right: 7%;
+}
 .mostrar {
 	display: block;
 }

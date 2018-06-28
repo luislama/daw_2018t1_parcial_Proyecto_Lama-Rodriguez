@@ -16,7 +16,7 @@ header{
 
 .nav-form{
     position: absolute;
-    right: 1%;
+    right: 7%;
 }
 
 /* footer css */
@@ -33,11 +33,18 @@ footer ul li {
     list-style-type: none;
 }
 
-
-
 .footer-menu>li{
     display: inline-block;
-    margin: 0px 50px 0px 50px; 
+    margin: 0px 50px 0px 50px;
+}
+
+.footer-menu> li> a{
+    text-decoration:none;
+    color:rgba(0,0,0,.5);
+}
+
+.footer-menu> li> a.activeFooter {
+    color: black;
 }
 
 /* nav css - responsive */

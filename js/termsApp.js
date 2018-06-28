@@ -24,10 +24,26 @@ function cargarTermsJSON() {
 	});
 }
 
-function ocultar() {
+window.onresize = function() {
+  
+    if(window.innerWidth < 768){
+      $("#perfilToggle").html($("#content_Section_Profile").detach());
+      $("#historialToggle").html($("#content_Section_Historial").detach());
+      $("#direccionesToggle").html($("#content_Section_Direccion").detach());
+      $("#notificacionesToggle").html($("#content_Section_Notificaciones").detach());
+    }
+    else{
+      $("#content_Section_Profile").html($("#perfilToggle").detach());
+      $("#content_Section_Historial").html($("#historialToggle").detach());
+      $("#content_Section_Direccion").html($("#direccionesToggle").detach());
+      $("#content_Section_Notificaciones").html($("#notificacionesToggle").detach());
+    };
+};
+
+/*function ocultar() {
 	console.log("collapse!!");
    	//$('.collapse.in').collapse('hide');
-}
+}*/
 
 
 /*$('.collapse').on('show.bs.collapse', function () {
@@ -38,5 +54,5 @@ function ocultar() {
 	//$('.collapse').on('show.bs.collapse',ocultar);
 	
 	cargarTermsJSON();
-	$('[id^="termino"]').on("click",ocultar);
+	/*$('[id^="termino"]').on("click",ocultar);*/
 })();

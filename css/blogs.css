@@ -21,7 +21,22 @@
 
 .posts_Blog{
   margin-bottom: 6%;
+  float: left;
 }
+
+#categorias {
+  float: left;
+}
+
+.pages_Blog{
+  justify-content:center;
+}
+.pages_Blog a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pages_Blog a:hover:not(.active) {background-color: #ddd;}
 
 @media (max-width: 767.98px) { 
 
@@ -35,9 +50,10 @@
     overflow: hidden;
     white-space: nowrap;
   }
+  #categorias {
+    display: none;
+  }
 }
 
-@media (min-width: 768px) {
-  #post_Show_Blog { display: none; }
-}
+
 

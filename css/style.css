@@ -19,13 +19,10 @@ html {
   background-color: #e9f0f5;
 }
 
-a {
-  /*color: #acb7c0;*/
-  text-decoration: none;
-}
-
 footer a > .linkACTIVE{
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 
 img {
