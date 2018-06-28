@@ -86,50 +86,46 @@
 						<div id="menu_Section_Profile" class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
 							<ul class="col-12">
 								<li>
-									<button id="perfil" class="btn btn-outline-success my-2 my-sm-0 button_Section">Perfil</button>
-									<div id="perfilToggle" class="contentOfSectionProfile">perfil</div>
+									<button id="perfil" class="btn btn-outline-secondary my-2 my-sm-0 button_Section">Perfil</button>
+									<div id="perfilToggle" class="contentOfSectionProfile"></div>
 								</li>
 								<li>
-									<button id="historial" class="btn btn-outline-success my-2 my-sm-0 button_Section">Historial</button>
-									<div id="historialToggle" class="contentOfSectionProfile">historial</div>
+									<button id="historial" class="btn btn-outline-secondary my-2 my-sm-0 button_Section">historial</button>
+									<div id="historialToggle" class="contentOfSectionProfile"></div>
 								</li>
 								<li>
-									<button id="direcciones" class="btn btn-outline-success my-2 my-sm-0 button_Section">Direcciones</button>
-									<div id="direccionesToggle" class="contentOfSectionProfile">direcciones</div>
+									<button id="direcciones" class="btn btn-outline-secondary my-2 my-sm-0 button_Section">direcciones</button>
+									<div id="direccionesToggle" class="contentOfSectionProfile"></div>
 								</li>
 								<li>
-									<button id="notificaciones" class="btn btn-outline-success my-2 my-sm-0 button_Section">Notificaciones</button>
-									<div id="notificacionesToggle" class="contentOfSectionProfile">notificaciones</div>
+									<button id="notificaciones" class="btn btn-outline-secondary my-2 my-sm-0 button_Section">Notificaciones</button>
+									<div id="notificacionesToggle" class="contentOfSectionProfile"></div>
 								</li>
 							</ul>
 						</div>
-						<div id="perfilSection"></div>
 						<div id="content_Section_Profile" class="col-lg-9 col-md-8 col-sm-12 col-xs-12 contentOfSectionProfile">
 							<div id="perfil_content_Section">
 								<label class="label_Profile">Nombre</label>
-								<input class="input_Profile" type="text" name="">
+								<input class="input_Profile" type="text" name="" disabled>
 
 								<label class="label_Profile">Apellidos</label>
-								<input class="input_Profile" type="text" name="">
+								<input class="input_Profile" type="text" name="" disabled>
 
 								<label class="label_Profile">Email</label>
-								<input class="input_Profile" type="email" name="">
+								<input class="input_Profile" type="email" name="" disabled>
 
 								<label class="label_Profile">Direccion</label>
-								<input class="input_Profile" type="text" name="">
-
-								<div class="row">
-									<button class="btn btn-outline-success my-2 my-sm-0 button_Profile" type="submit">Editar</button>
-								</div>
-								<div class="row">
-									<button class="btn btn-outline-success my-2 my-sm-0 button_Profile" type="submit">Guardar</button>
-								</div>
-								<div class="row">
-									<button class="btn btn-outline-success my-2 my-sm-0 button_Profile" type="submit">Eliminar</button>
+								<input class="input_Profile" type="text" name="" disabled>
+								<div id="perfil_buttons_content_Section">
+									<div class="row">
+										<button id="btn_section_profile_editar" class="btn btn-outline-success my-2 my-sm-0 button_Profile" type="submit">Editar</button>
+									</div>
+									<div class="row">
+										<button id="btn_section_profile_guardar" class="btn btn-outline-success my-2 my-sm-0 button_Profile ocultar" type="submit">Guardar</button>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div id="historialSection"></div>
 						<div id="content_Section_Historial" class="col-lg-9 col-md-8 col-sm-12 col-xs-12 contentOfSectionProfile">
 							<canvas id="myChart"></canvas>
 						</div>
@@ -140,7 +136,6 @@
 								<button id="obtener" class="btn btn-outline-success my-2 my-sm-0 button_Profile">Obtener localizacion</button>
 							</div>
 						</div>
-						<div id="notificacionesSection"></div>
 						<div id="content_Section_Notificaciones" class="col-lg-9 col-md-8 col-sm-12 col-xs-12 contentOfSectionProfile">
 							<div class="row">
 								<div class="col-md-6 col-sm-3">

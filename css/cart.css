@@ -16,3 +16,22 @@
   margin-left: 5%;
   margin-top: 3%;
 }
+
+@media (max-width: 767.98px) { 
+  
+  .cart-row{
+    display: none;
+  }
+
+  .tambienPuede{
+    display: none;
+  }
+  .container> h3{
+  	display: none;
+  }
+
+  .producto> img {
+  	padding-left: 15%;
+  	padding-right: 15%;
+  }
+}

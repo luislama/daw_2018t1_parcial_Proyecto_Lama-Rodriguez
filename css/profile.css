@@ -84,12 +84,17 @@ section li {
 		margin-right: 5%;
 		margin-left: 5%;
 	}
+		#perfil_buttons_content_Section {
+		width: 100%;
+		padding-left: 35%;
+		padding-right: 35%
+	}
 }
 
 @media (min-width: 768px) {
 
 	.button_Section{
-		width: 95%;
+		width: 100%;
 	}
 	.label_Profile{
 		width: 20%;
@@ -110,4 +115,5 @@ section li {
 		margin-right: 35%;
 		margin-left: 35%;
 	}
+
 }
