@@ -20,8 +20,12 @@ html {
 }
 
 a {
-  color: #acb7c0;
+  /*color: #acb7c0;*/
   text-decoration: none;
+}
+
+footer a > .linkACTIVE{
+  font-weight: bold;
 }
 
 img {

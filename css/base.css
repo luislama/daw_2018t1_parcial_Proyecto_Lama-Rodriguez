@@ -16,6 +16,15 @@ div{
 	display: block;
 }
 
+.linkACTIVE{
+	font-weight: bold;
+}
+
+#ICONOCARRITO{
+	width: 20px;
+	height: 20px;
+}
+
 h2 {
 	text-align: center;
 	margin-left: auto;

@@ -34,18 +34,14 @@
 
 		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 	        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-center">
-		    	<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-				<li class="nav-item"><a class="nav-link" href="products.html">Productos</a></li>
-				<li class="nav-item"><a class="nav-link" href="partners.html">Socios</a></li>
-				<li class="nav-item active"><a class="nav-link" href="profile.html">Profile</a></li>
-				<li class="nav-item"><a class="nav-link" href="about_us.html">Contacto</a></li>
-				<li class="nav-item">
-
-				</li>
+		    	<li class="nav-item linkACTIVE"><a class="nav-link" href="index.html">Inicio</a></li>
+				<li id="linkProductos" class="nav-item"><a class="nav-link" href="">Productos</a></li>
+				<li id="linkSocios" class="nav-item"><a class="nav-link" href="">Socios</a></li>
+				<li class="nav-item active linkACTIVE"><a class="nav-link" href="profile.html">Perfil</a></li>
+				<li id="linkContacto" class="nav-item"><a class="nav-link" href="">Contacto</a></li>
 		    </ul>
 		    <form class="form-inline my-2 my-lg-0 nav-form">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+		      <a class="btn btn-outline-success my-2 my-sm-0" href="cart.html" type="submit"><img id="ICONOCARRITO" mx-auto d-block  img-responsive" src="img/cart-icon.jpg" alt="carrito"></img></a>
 		    </form>
 		  </div>
 		</nav>
@@ -106,16 +102,16 @@
 						<div id="content_Section_Profile" class="col-lg-9 col-md-8 col-sm-12 col-xs-12 contentOfSectionProfile">
 							<div id="perfil_content_Section">
 								<label class="label_Profile">Nombre</label>
-								<input class="input_Profile" type="text" name="" disabled>
+								<input class="input_Profile" type="text" name="nombre" disabled>
 
 								<label class="label_Profile">Apellidos</label>
-								<input class="input_Profile" type="text" name="" disabled>
+								<input class="input_Profile" type="text" name="apellidos" disabled>
 
 								<label class="label_Profile">Email</label>
-								<input class="input_Profile" type="email" name="" disabled>
+								<input class="input_Profile" type="email" name="apellidos" disabled>
 
 								<label class="label_Profile">Direccion</label>
-								<input class="input_Profile" type="text" name="" disabled>
+								<input class="input_Profile" type="text" name="direccion" disabled>
 								<div id="perfil_buttons_content_Section">
 									<div class="row">
 										<button id="btn_section_profile_editar" class="btn btn-outline-success my-2 my-sm-0 button_Profile" type="submit">Editar</button>
@@ -235,7 +231,7 @@
 									<div class="review-block">
 										<div class="row">
 											<div class="col-sm-3">
-												<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
+												<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded" alt="review block Image">
 												<div class="review-block-name"><a href="#">nktailor</a></div>
 												<div class="review-block-date">January 29, 2016<br/>1 day ago</div>
 											</div>
@@ -264,7 +260,7 @@
 										<hr/>
 										<div class="row">
 											<div class="col-sm-3">
-												<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
+												<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded" alt="review block Image">
 												<div class="review-block-name"><a href="#">nktailor</a></div>
 												<div class="review-block-date">January 29, 2016<br/>1 day ago</div>
 											</div>
@@ -293,7 +289,7 @@
 										<hr/>
 										<div class="row">
 											<div class="col-sm-3">
-												<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
+												<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded" alt="review block Image">
 												<div class="review-block-name"><a href="#">nktailor</a></div>
 												<div class="review-block-date">January 29, 2016<br/>1 day ago</div>
 											</div>
@@ -334,10 +330,10 @@
 		<!-- footer -->
 		<footer class="footer">
 			<ul class="footer-menu">
-		      <li><a href="">FAQs</a></li>
-		      <li><a href="">Terms &amp; Conditions</a></li>
-		      <li><a href="">Acerca de</a></li>
-		      <li><a href="">Contacto</a></li>
+		      <li id="linkFaqs"><a href="">FAQs</a></li>
+		      <li class="linkACTIVE"><a href="">Terms &amp; Conditions</a></li>
+		      <li class="linkACTIVE"><a href="story">Quienes Somos</a></li>
+		      <li class="linkACTIVE"><a href="blogs.html">Blog</a></li>
 			</ul>
 		  	<div class="footer-copyright text-center">&copy; 2018 Copyright:
 		    	<a href=""> EasyComm.com</a>
