@@ -64,7 +64,7 @@ img {
 
 @include media-breakpoint-up(md) {
 
-}3
+}
 
 @include media-breakpoint-up(lg) {
 

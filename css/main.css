@@ -6,12 +6,19 @@ header{
 /* nav css */
 .navbar{
     height: 55px;
+    background-color: hsl(200, 40%, 50%);
+    
+    
 }
+div.collapse ul.navbar-nav li.nav-item a {
+    color: rgb(255, 255,255);
+} 
 
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 .nav-form{

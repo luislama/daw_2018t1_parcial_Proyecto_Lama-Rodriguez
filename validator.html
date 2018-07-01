@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title> EasyComm </title>
@@ -9,9 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
 		<link rel="stylesheet" type="text/css" href="css/base.css" >
 	</head>
 
@@ -28,19 +28,21 @@
 
 		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 	        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-center">
-		    	<li class="nav-item linkACTIVE"><a class="nav-link" href="index.html">Inicio</a></li>
-				<li id="linkProductos" class="nav-item"><a class="nav-link" href="">Productos</a></li>
-				<li id="linkSocios" class="nav-item"><a class="nav-link" href="">Socios</a></li>
-				<li class="nav-item linkACTIVE"><a class="nav-link" href="profile.html">Perfil</a></li>
-				<li id="linkContacto" class="nav-item"><a class="nav-link" href="">Contacto</a></li>
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0 nav-form">
-		      <a class="btn btn-outline-success my-2 my-sm-0" href="cart.html"><img id="ICONOCARRITO" class="img-responsive" src="img/cart-icon.jpg" alt="carrito"></a>
-		    </form>
+                <li class="nav-item linkACTIVE"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li id="linkProductos" class="nav-item"><a class="nav-link" href="">Productos</a></li>
+                <li id="linkSocios" class="nav-item"><a class="nav-link" href="">Socios</a></li>
+                <li class="nav-item linkACTIVE"><a class="nav-link" href="profile.html">Perfil</a></li>
+                <li id="linkContacto" class="nav-item"><a class="nav-link" href="">Contacto</a></li>
+            </ul>
+		    <div class="form-inline my-2 my-lg-0 nav-form">
+                <a class="btn btn-outline-success my-2 my-sm-0" href="cart.html"><img id="ICONOCARRITO" class="img-responsive" src="img/cart-icon.jpg" alt="carrito"></a>
+          </div>
 		  </div>
 		</nav>
 		<!-- end navbar -->
-        <br>
+		<br>
+		
+
 		<!-- content -->
 
 		<div class="contenedor">
@@ -50,7 +52,7 @@
 						<h2>Promociones </h2>
 						<div class="embed-responsive embed-responsive-4by3">
 							<video class=" mx-auto d-block embed-responsive-item" controls>
-								<!--source src="src/video/uso.mp4" type="video/mp4" -->
+								<source src="src/video/uso.mp4" type="video/mp4" >
 							</video>
 						</div>
 
@@ -69,17 +71,16 @@
 						</div>
 
 					</aside>
-				</div>
-
-        <div class="col-md-9 col-sm-12">
-        	<h2>Terminos y Condiciones</h2>
-        	<table id="termsTable" class="table-condensed">
- 				<tbody id="termsTbody">
-
- 				</tbody>
-			</table>
-        </div>
-	</div>
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <img src="img/img_index.png" class="img-responsive">
+                    <img src="img/img_blog.png" class="img-responsive">
+                    <img src="img/img_cart.png" class="img-responsive">
+                    <img src="img/img_profile.png" class="img-responsive" >
+                    <img src="img/img_story.png" class="img-responsive">
+                    <img src="img/img_terms.png" class="img-responsive">
+                </div>
+			</div>
 
 
 
@@ -91,17 +92,16 @@
 		<!-- footer -->
 		<footer class="footer">
 			<ul class="footer-menu">
-		      <li id="linkFaqs"><a href="">FAQs</a></li>
-		      <li class="linkACTIVE"><a class="activeFooter" href="terms.html">Terms &amp; Conditions</a></li>
-		      <li class="linkACTIVE"><a href="story.html">Quienes Somos</a></li>
-		      <li class="linkACTIVE"><a href="blogs.html">Blog</a></li>
+		      <li><a href="">FAQs</a></li>
+		      <li><a href="">Terms &amp; Conditions</a></li>
+		      <li><a href="">Acerca de</a></li>
+		      <li><a href="">Contacto</a></li>
 			</ul>
 		  	<div class="footer-copyright text-center">&copy; 2018 Copyright:
 		    	<a href=""> EasyComm.com</a>
 		  	</div>
 		</footer>
 		<!-- endfooter-->
-		<script src="js/terms.js"></script>
-		<script src="js/grupos.js"></script>
+
 	</body>
 </html>
